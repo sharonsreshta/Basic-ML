@@ -1,0 +1,144 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled3.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyOmLpnqFzXQL4uCd6BpeK7O",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/sharonsreshta/Basic-ML/blob/main/My%20First%20Notebook\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "nuJ--IFXSnHD"
+      },
+      "source": [
+        "Python program to find whether even or odd:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "gxX13G_tSmLW",
+        "outputId": "11650969-b374-4081-bfe4-d69605ca91be"
+      },
+      "source": [
+        "N=int(input())\n",
+        "if (N%2==0):\n",
+        "   print(\" Even\")\n",
+        "else:\n",
+        "   print (\" Odd\")"
+      ],
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "25\n",
+            " Odd\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "YPI3Vy0iU14d"
+      },
+      "source": [
+        "Python Program for maximum of 2 numbers:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0gatVSUiVqmo",
+        "outputId": "fd8a6321-0bbc-458d-e741-87f6769ef61f"
+      },
+      "source": [
+        "a=int(input(\"enter a:\")) \n",
+        "b=int(input(\"enter b:\")) \n",
+        "if (a>b):\n",
+        "   print(\"max is a\")\n",
+        "else:\n",
+        "   print(\"max is b\")"
+      ],
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "enter a:35\n",
+            "enter b:12\n",
+            "max is a\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "1d1M1M9QWIpi"
+      },
+      "source": [
+        " Python program to find a leap year or not a leap year:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "uRCpByAbYefN",
+        "outputId": "ab3cf89f-b77f-4f5a-eb54-c5ef7f4f1c03"
+      },
+      "source": [
+        "y=int(input(\"enter a number:\")) \n",
+        "if (y%4==0 and y%100!=0) or (y%400==0):\n",
+        "   print(\"leap year\") \n",
+        "else: \n",
+        "   print(\"non leap year\")"
+      ],
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "enter a number:2003\n",
+            "non leap year\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
